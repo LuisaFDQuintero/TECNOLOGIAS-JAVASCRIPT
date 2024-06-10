@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- contiene los recursos externos como los css y js -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Finanzas</title>
+  <link rel="stylesheet" href="style.css"> <!-- enlace al css -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- biblioteca para la creacion de graficos -->
+</head>
+<body> <!-- contenido visible para el usuario -->
+  <header>
+    <img src="imagen.png" alt="Descripción de la imagen">
+    <h1>Registro de Finanzas</h1>
+  </header>
+  <div class="container">
+    <form id="transaccion-form">
+      <select id="tipo">
+        <option value="ingreso">Ingreso</option>
+        <option value="gasto">Gasto</option>
+      </select>
+      <input type="number" id="cantidad" placeholder="Cantidad" required>
+      <button type="submit">Añadir</button>
+    </form>
+    <h2>Historial de Transacciones</h2>
+    <ul id="historial"></ul>
+    <h2>Balance</h2>
+    <p id="balance"></p>
+    <canvas id="balanceChart" width="400" height="200"></canvas>
+    <footer>
+      <p> Actividad II desarrollo aplicaciones en red </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script> <!-- enlace al JavaScript -->
+</body>
+</html>

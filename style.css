@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0e6f9; /* Azul claro */
+    color: #000f54; /* Azul oscuro */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(235, 235, 235);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #ff5500; /* Azul oscuro */
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #001f54; /* Azul oscuro */
+    border-radius: 4px;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #4d79ff; /* Azul medio */
+}
+
+button {
+    background-color: #4d79ff; /* Azul medio */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001f54; /* Azul oscuro */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #d0e1f9; /* Azul claro */
+    margin-bottom: 5px;
+    border-left: 5px solid #4d79ff; /* Azul medio */
+}
+
+footer {
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */   
+    color: green;
+}
+
+header {
+    text-align: center; /* Para centrar el contenido horizontalmente */
+    margin: 20px; /* Márgenes alrededor del encabezado */
+    padding: 20px; /* Relleno interno del encabezado */
+    background-image: url('imagen.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Para cubrir completamente el área del encabezado */
+    background-position: center; /* Para centrar la imagen de fondo */
+    color: white; /* Color del texto */
+  }
+  
+  
+  img {
+    width: 150px; /* Tamaño de la imagen */
+    height: auto; /* Para mantener la proporción */
+    margin-bottom: 10px; /* Margen inferior de la imagen */
+  }
+  
+  .container {
+    margin: 20px; /* Márgenes alrededor del contenedor */
+    background-color: hsl(0, 0%, 100%); /* Color de fondo del contenedor */
+    padding: 30px; /* Relleno interno del contenedor */
+    border: 1px solid #82abf7; /* Borde del contenedor */
+  }
+  
+  
